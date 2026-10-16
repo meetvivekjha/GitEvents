@@ -1,7 +1,8 @@
 name: Events
 on:
   pull_request:
-    types: -opened
+    types:
+      - opened
 jobs:
   deploy:
     needs: test
